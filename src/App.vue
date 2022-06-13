@@ -60,6 +60,7 @@ export default {
 }
 body {
   margin: 0;
+  background-color: #EAEDEF;
 }
 .header {
   background-color: #48bac4;
@@ -82,10 +83,12 @@ body {
 }
 
 .theming {
+  background-color: white;
   padding: 2rem;
 }
 
 .notif {
+  background-color: white;
   padding: 2rem;
 }
 </style>

@@ -1,30 +1,152 @@
 <template>
   <h2>Basic components</h2>
-  <h3>Buttons</h3>
-  <div class="example">
-    <m-button label="Primary"></m-button>
+  <div class="wrapper">
+    <h3>Buttons</h3>
+    <div class="example">
+      <div class="items">
+        <m-button label="Button label" />
 
-    <m-button label="Bordered" size="m" bordered="true"></m-button>
+        <m-button
+          label="With icon"
+          size="m"
+          iconname="navigation-arrow-arrow--left-32px"
+          iconmode="left"
+          bordered="true"
+        ></m-button>
 
-    <m-button label="Large button" size="l"></m-button>
-    <m-button
-      label="With icon"
-      size="m"
-      iconname="navigation-arrow-arrow--left-32px"
-      iconmode="left"
-      bordered="true"
-    ></m-button>
+        <m-button
+          label="With icon"
+          size="m"
+          iconname="navigation-arrow-arrow--left-32px"
+          iconmode="right"
+          bordered="true"
+        ></m-button>
+
+        <m-button
+          size="m"
+          iconname="navigation-arrow-arrow--left-32px"
+          iconmode="only"
+          bordered="true"
+        ></m-button>
+      </div>
+
+      <div class="items">
+        <m-button label="Button label" size="s" bordered="true" />
+
+        <m-button label="Button label" size="m" bordered="true" />
+
+        <m-button label="Button label" size="l" bordered="true" />
+      </div>
+
+      <div class="items">
+        <m-button label="Button label" />
+
+        <m-button label="Button label" theme="neutral" />
+
+        <m-button label="Button label" theme="danger" />
+      </div>
+
+      <div class="items">
+        <m-button label="Button label" bordered="true" />
+
+        <m-button label="Button label" theme="neutral" bordered="true" />
+
+        <m-button label="Button label" theme="danger" bordered="true" />
+      </div>
+    </div>
   </div>
 
   <h3>Badges</h3>
   <div class="example">
-    <m-badge label="Primary"></m-badge>
-    <m-badge label="Success" type="success"></m-badge>
-    <m-badge label="Danger" type="danger"></m-badge>
-    <m-badge label="Warning" type="warning"></m-badge>
-    <m-badge label="Neutral" type="neutral"></m-badge>
+    <div class="items">
+      <m-badge label="Primary"></m-badge>
+      <m-badge label="Success" type="success"></m-badge>
+      <m-badge label="Danger" type="danger"></m-badge>
+      <m-badge label="Warning" type="warning"></m-badge>
+      <m-badge label="Neutral" type="neutral"></m-badge>
+    </div>
   </div>
 
+  <h2>Form elements</h2>
+  <div class="example">
+    <h3>Text input</h3>
+    <div class="form-item">
+      <m-textinput
+        name="txt1"
+        inputtype="text"
+        placeholder="Text input"
+      ></m-textinput>
+    </div>
+
+    <h3>Select</h3>
+    <div class="form-item">
+      <m-select
+        placeholder="Choose an option"
+        :options="this.opts"
+        :valueselected="selectValue"
+      ></m-select>
+    </div>
+
+    <h3>Datepicker</h3>
+    <div class="form-item">
+      <m-textinput
+        name="txt1"
+        inputtype="date"
+        value="2022-06-06"
+        placeholder="Datepicker"
+      ></m-textinput>
+    </div>
+
+    <h3>Textarea</h3>
+    <m-textarea name="txt1" placeholder="Text input"></m-textarea>
+
+    <h3>Checkbox</h3>
+    <div class="items">
+      <m-checkbox
+        class="space"
+        name="chx"
+        label="Default"
+        :checked="checkboxValue"
+      ></m-checkbox>
+      <m-checkbox name="chx"></m-checkbox>
+
+      <m-checkbox
+        name="chx"
+        label="Indeterminate"
+        indeterminate="true"
+      ></m-checkbox>
+    </div>
+
+    <h3>Radio</h3>
+    <div class="example">
+      <m-radio id="radio" name="radio1" label="Default"></m-radio>
+      <m-radio
+        id="radio"
+        name="radio1"
+        label="Disabled"
+        disabled="true"
+      ></m-radio>
+      <m-radio
+        id="radio"
+        name="radio1"
+        label="Invalid"
+        isinvalid="true"
+      ></m-radio>
+    </div>
+
+    <h3>Toogle</h3>
+    <div class="example">
+      <m-toggle
+        label="Default"
+        :checked="toggleCheck"
+        @click="handleToggle()"
+      ></m-toggle>
+      <m-toggle name="toggle" label="Disabled" disabled="true"></m-toggle>
+      <m-toggle label="Small" value="{{ toggleCheck }}"></m-toggle>
+    </div>
+  </div>
+
+  <h2>Complex component</h2>
   <h3>Cards</h3>
   <div class="example">
     <m-card
@@ -42,85 +164,6 @@
       <m-button label="Buy it" size="s"> </m-button>
     </m-card>
   </div>
-
-  <h2>Form</h2>
-  <h3>Select</h3>
-  <m-select
-    placeholder="Choose an option"
-    :options="this.opts"
-    :valueselected="selectValue"
-  ></m-select>
-
-  <h3>Text input</h3>
-  <div class="example">
-    <m-field label="Date input" id="datainput">
-      <m-textinput
-        name="txt1"
-        inputtype="date"
-        value="2001-09-11"
-        placeholder="Text input"
-      ></m-textinput>
-    </m-field>
-
-    <m-textinput
-      name="txt1"
-      inputtype="number"
-      type="number"
-      :value="inputNumber"
-      placeholder="Text input"
-    ></m-textinput>
-  </div>
-
-  <h3>Text area</h3>
-  <m-textarea name="txt1" type="date" placeholder="Text Area"></m-textarea>
-
-  <h3>Checkbox</h3>
-  <div class="example">
-    <m-checkbox
-      class="space"
-      name="chx"
-      label="Default"
-      :checked="checkboxValue"
-    ></m-checkbox>
-    {{ checkboxValue }}
-    <m-checkbox name="chx"></m-checkbox>
-
-    <m-checkbox
-      name="chx"
-      label="Indeterminate"
-      indeterminate="true"
-    ></m-checkbox>
-  </div>
-
-  <h3>Radio</h3>
-  <div class="example">
-    <m-radio id="radio" name="radio1" label="Default"></m-radio>
-    <m-radio
-      id="radio"
-      name="radio1"
-      label="Disabled"
-      disabled="true"
-    ></m-radio>
-    <m-radio
-      id="radio"
-      name="radio1"
-      label="Invalid"
-      isinvalid="true"
-    ></m-radio>
-  </div>
-
-  <h3>Toogle</h3>
-  <div class="example">
-    <m-toggle
-      label="Default"
-      :checked="toggleCheck"
-      @click="handleToggle()"
-    ></m-toggle>
-    <m-toggle name="toggle" label="Disabled" disabled="true"></m-toggle>
-    <m-toggle label="Small" value="{{ toggleCheck }}"></m-toggle>
-  </div>
-
-  <h2>Complex component</h2>
   <h3>Layer</h3>
   <m-button label="Open Layer " @click="manageLayer()"></m-button>
   <m-layer
@@ -189,72 +232,70 @@
 </template>
 
 <script>
+import Button from "@mozaic-ds/mozaic-web-components/public/adeo/components/button/Button.js";
+import Card from "@mozaic-ds/mozaic-web-components/public/adeo/components/card/Card.js";
+import Checkbox from "@mozaic-ds/mozaic-web-components/public/adeo/components/checkbox/Checkbox.js";
+import Textarea from "@mozaic-ds/mozaic-web-components/public/adeo/components/textarea/Textarea.js";
+import Select from "@mozaic-ds/mozaic-web-components/public/adeo/components/select/Select.js";
+import Toggle from "@mozaic-ds/mozaic-web-components/public/adeo/components/toggle/Toggle.js";
+import Field from "@mozaic-ds/mozaic-web-components/public/adeo/components/field/Field.js";
+import Textinput from "@mozaic-ds/mozaic-web-components/public/adeo/components/textinput/Textinput.js";
+import Notification from "@mozaic-ds/mozaic-web-components/public/adeo/components/notification/Notification.js";
+import Radio from "@mozaic-ds/mozaic-web-components/public/adeo/components/radio/Radio.js";
+import Layer from "@mozaic-ds/mozaic-web-components/public/adeo/components/layer/Layer.js";
+import Badge from "@mozaic-ds/mozaic-web-components/public/adeo/components/badge/Badge.js";
+import BarChart from "@mozaic-ds/mozaic-web-components/public/adeo/components/chart/BarChart.js";
 
-import Button from '@mozaic-ds/mozaic-web-components/public/adeo/components/button/Button.js';
-import Card from '@mozaic-ds/mozaic-web-components/public/adeo/components/card/Card.js';
-import Checkbox from '@mozaic-ds/mozaic-web-components/public/adeo/components/checkbox/Checkbox.js';
-import Textarea from '@mozaic-ds/mozaic-web-components/public/adeo/components/textarea/Textarea.js';
-import Select from '@mozaic-ds/mozaic-web-components/public/adeo/components/select/Select.js';
-import Toggle from '@mozaic-ds/mozaic-web-components/public/adeo/components/toggle/Toggle.js';
-import Field from '@mozaic-ds/mozaic-web-components/public/adeo/components/field/Field.js';
-import Textinput from '@mozaic-ds/mozaic-web-components/public/adeo/components/textinput/Textinput.js';
-import Notification from '@mozaic-ds/mozaic-web-components/public/adeo/components/notification/Notification.js';
-import Radio from '@mozaic-ds/mozaic-web-components/public/adeo/components/radio/Radio.js';
-import Layer from '@mozaic-ds/mozaic-web-components/public/adeo/components/layer/Layer.js';
-import Badge from '@mozaic-ds/mozaic-web-components/public/adeo/components/badge/Badge.js';
-import BarChart from '@mozaic-ds/mozaic-web-components/public/adeo/components/chart/BarChart.js';
-
-if (!customElements.get('m-button')) {
-  customElements.define('m-button', Button);
+if (!customElements.get("m-button")) {
+  customElements.define("m-button", Button);
 }
 
-if (!customElements.get('m-card')) {
-  customElements.define('m-card', Card);
+if (!customElements.get("m-card")) {
+  customElements.define("m-card", Card);
 }
 
-if (!customElements.get('m-checkbox')) {
-  customElements.define('m-checkbox', Checkbox);
+if (!customElements.get("m-checkbox")) {
+  customElements.define("m-checkbox", Checkbox);
 }
 
-if (!customElements.get('m-textarea')) {
-  customElements.define('m-textarea', Textarea);
+if (!customElements.get("m-textarea")) {
+  customElements.define("m-textarea", Textarea);
 }
 
-if (!customElements.get('m-select')) {
-  customElements.define('m-select', Select);
+if (!customElements.get("m-select")) {
+  customElements.define("m-select", Select);
 }
 
-if (!customElements.get('m-toggle')) {
-  customElements.define('m-toggle', Toggle);
+if (!customElements.get("m-toggle")) {
+  customElements.define("m-toggle", Toggle);
 }
 
-if (!customElements.get('m-field')) {
-  customElements.define('m-field', Field);
+if (!customElements.get("m-field")) {
+  customElements.define("m-field", Field);
 }
 
-
-if (!customElements.get('m-textinput')) {
-  customElements.define('m-textinput', Textinput);
+if (!customElements.get("m-textinput")) {
+  customElements.define("m-textinput", Textinput);
 }
 
-if (!customElements.get('m-notification')) {
-  customElements.define('m-notification', Notification);
+if (!customElements.get("m-notification")) {
+  customElements.define("m-notification", Notification);
 }
 
-if (!customElements.get('m-radio')) {
-  customElements.define('m-radio', Radio);
+if (!customElements.get("m-radio")) {
+  customElements.define("m-radio", Radio);
 }
 
-if (!customElements.get('m-layer')) {
-  customElements.define('m-layer', Layer);
+if (!customElements.get("m-layer")) {
+  customElements.define("m-layer", Layer);
 }
 
-if (!customElements.get('m-badge')) {
-  customElements.define('m-badge', Badge);
+if (!customElements.get("m-badge")) {
+  customElements.define("m-badge", Badge);
 }
 
-if (!customElements.get('m-bar-chart')) {
-  customElements.define('m-bar-chart', BarChart);
+if (!customElements.get("m-bar-chart")) {
+  customElements.define("m-bar-chart", BarChart);
 }
 
 export default {
@@ -314,7 +355,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .example {
+  margin: 2rem;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.items {
   display: flex;
-  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.form-item {
+  width: 40%;
 }
 </style>
