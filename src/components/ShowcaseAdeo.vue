@@ -1,5 +1,4 @@
 <template>
-  <h1>ADEO</h1>
   <h2>Basic components</h2>
   <h3>Buttons</h3>
   <div class="example">

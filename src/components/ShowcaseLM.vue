@@ -1,6 +1,4 @@
 <template>
-  <various-survey-64px />
-  <h1>LM</h1>
   <h2>Basic components</h2>
   <h3>Buttons</h3>
   <div class="example">
