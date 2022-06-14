@@ -1,5 +1,5 @@
 <template>
-  <h2>Basic components</h2>
+  <h2 class="title">Basic components</h2>
   <div class="wrapper">
     <h3>Buttons</h3>
     <div class="example">
@@ -102,133 +102,176 @@
 
     <h3>Checkbox</h3>
     <div class="items">
+      <m-checkbox name="chx"></m-checkbox>
       <m-checkbox
         class="space"
         name="chx"
-        label="Default"
         :checked="checkboxValue"
       ></m-checkbox>
-      <m-checkbox name="chx"></m-checkbox>
-
       <m-checkbox
         name="chx"
-        label="Indeterminate"
         indeterminate="true"
+        label="Checkbox Label"
+      ></m-checkbox>
+    </div>
+    <div class="items">
+      <m-checkbox name="chx" label="Checkbox Label"></m-checkbox>
+      <m-checkbox
+        class="space"
+        name="chx"
+        :checked="checkboxValue"
+        label="Checkbox Label"
+      ></m-checkbox>
+      <m-checkbox
+        name="chx"
+        indeterminate="true"
+        label="Checkbox Label"
       ></m-checkbox>
     </div>
 
-    <h3>Radio</h3>
-    <div class="example">
-      <m-radio id="radio" name="radio1" label="Default"></m-radio>
-      <m-radio
-        id="radio"
-        name="radio1"
-        label="Disabled"
-        disabled="true"
-      ></m-radio>
-      <m-radio
-        id="radio"
-        name="radio1"
-        label="Invalid"
-        isinvalid="true"
-      ></m-radio>
-    </div>
+    <!-- <h3>Radio</h3>
+    <div class="item">
+      <m-radio id="sho"  name="showcase" label="Default"></m-radio>
+      <m-radio id="shosho" name="showcase" label="Second"></m-radio>
+
+    </div> -->
 
     <h3>Toogle</h3>
-    <div class="example">
+    <div class="items">
+      <m-toggle value="false"></m-toggle>
+      <m-toggle :checked="toggleCheck" @click="handleToggle()"></m-toggle>
+
+      <m-toggle label="Checkbox Label" value="false"></m-toggle>
       <m-toggle
-        label="Default"
+        label="Checkbox Label"
         :checked="toggleCheck"
         @click="handleToggle()"
       ></m-toggle>
-      <m-toggle name="toggle" label="Disabled" disabled="true"></m-toggle>
-      <m-toggle label="Small" value="{{ toggleCheck }}"></m-toggle>
+    </div>
+
+    <div class="items">
+      <m-toggle value="false" size="s"></m-toggle>
+      <m-toggle
+        :checked="toggleCheck"
+        @click="handleToggle()"
+        size="s"
+      ></m-toggle>
+
+      <m-toggle label="Checkbox Label" value="false" size="s"></m-toggle>
+      <m-toggle
+        label="Checkbox Label"
+        :checked="toggleCheck"
+        @click="handleToggle()"
+        size="s"
+      ></m-toggle>
     </div>
   </div>
 
-  <h2>Complex component</h2>
+  <h2 class="title">Complex component</h2>
   <h3>Cards</h3>
   <div class="example">
-    <m-card
-      title="A card in its outlined version"
-      imgsrc="https://images.unsplash.com/photo-1534889156217-d643df14f14a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=640"
-      outlined="true"
-      imgalt="This is the Card image"
-      subtitle="A subtitle"
-    >
-      <p>
-        Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
-        condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo sit
-        amet pharetra.
-      </p>
-      <m-button label="Buy it" size="s"> </m-button>
-    </m-card>
-  </div>
-  <h3>Layer</h3>
-  <m-button label="Open Layer " @click="manageLayer()"></m-button>
-  <m-layer
-    title="Layer title"
-    layertitletag="h3"
-    :isopen="isLayerOpen"
-    @closeLayer="closeLayer()"
-  >
-    <template v-slot:content>
-      <small>
+    <div class="items">
+      <m-card
+        title="A card in its outlined version"
+        imgsrc="https://images.unsplash.com/photo-1534889156217-d643df14f14a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=640"
+        imgalt="This is the Card image"
+        subtitle="A subtitle"
+      >
         <p>
           Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
           condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo
-          sit amet pharetra. Fusce iaculis dolor nulla, a maximus ipsum
-          sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur
-          sagittis placerat leo sit amet pharetra. Fusce iaculis dolor nulla, a
-          maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat.
-          Curabitur sagittis placerat leo sit amet pharetra. Fusce iaculis dolor
-          nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam
-          feugiat. Curabitur sagittis placerat leo sit amet pharetra. Fusce
-          iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-          at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-          pharetra. Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et.
-          Ut condimentum at orci aliquam feugiat. Curabitur sagittis placerat
-          leo sit amet pharetra. Fusce iaculis dolor nulla, a maximus ipsum
-          sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur
-          sagittis placerat leo sit amet pharetra. Fusce iaculis dolor nulla, a
-          maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat.
-          Curabitur sagittis placerat leo sit amet pharetra. Fusce iaculis dolor
-          nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam
-          feugiat. Curabitur sagittis placerat leo sit amet pharetra. Fusce
-          iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-          at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-          pharetra. Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et.
-          Ut condimentum at orci aliquam feugiat. Curabitur sagittis placerat
-          leo sit amet pharetra. Fusce iaculis dolor nulla, a maximus ipsum
-          sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur
-          sagittis placerat leo sit amet pharetra. Fusce iaculis dolor nulla, a
-          maximus ipsum sollicitudin et. Ut condimentum at orci aliquam feugiat.
-          Curabitur sagittis placerat leo sit amet pharetra. Fusce iaculis dolor
-          nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci aliquam
-          feugiat. Curabitur sagittis placerat leo sit amet pharetra. Fusce
-          iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut condimentum
-          at orci aliquam feugiat. Curabitur sagittis placerat leo sit amet
-          pharetra.
+          sit amet pharetra.
         </p>
-      </small>
-      <small><m-button label="Primary action"></m-button></small>
-    </template>
-  </m-layer>
+      </m-card>
+      <m-card
+        title="A card in its outlined version"
+        imgsrc="https://images.unsplash.com/photo-1534889156217-d643df14f14a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=640"
+        outlined="true"
+        imgalt="This is the Card image"
+        subtitle="A subtitle"
+      >
+        <p>
+          Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+          condimentum at orci aliquam feugiat. Curabitur sagittis placerat leo
+          sit amet pharetra.
+        </p>
+        <m-button label="Buy it" size="s"> </m-button>
+      </m-card>
+    </div>
+  </div>
+  <h3>Layer</h3>
+  <div class="example">
+    <div class="items">
+      <m-button label="Open Layer " @click="manageLayer()"></m-button>
+      <m-layer
+        title="Layer title"
+        layertitletag="h3"
+        :isopen="isLayerOpen"
+        @closeLayer="closeLayer()"
+      >
+        <template v-slot:content>
+          <small>
+            <p>
+              Fusce iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+              condimentum at orci aliquam feugiat. Curabitur sagittis placerat
+              leo sit amet pharetra. Fusce iaculis dolor nulla, a maximus ipsum
+              sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur
+              sagittis placerat leo sit amet pharetra. Fusce iaculis dolor
+              nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci
+              aliquam feugiat. Curabitur sagittis placerat leo sit amet
+              pharetra. Fusce iaculis dolor nulla, a maximus ipsum sollicitudin
+              et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis
+              placerat leo sit amet pharetra. Fusce iaculis dolor nulla, a
+              maximus ipsum sollicitudin et. Ut condimentum at orci aliquam
+              feugiat. Curabitur sagittis placerat leo sit amet pharetra. Fusce
+              iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+              condimentum at orci aliquam feugiat. Curabitur sagittis placerat
+              leo sit amet pharetra. Fusce iaculis dolor nulla, a maximus ipsum
+              sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur
+              sagittis placerat leo sit amet pharetra. Fusce iaculis dolor
+              nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci
+              aliquam feugiat. Curabitur sagittis placerat leo sit amet
+              pharetra. Fusce iaculis dolor nulla, a maximus ipsum sollicitudin
+              et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis
+              placerat leo sit amet pharetra. Fusce iaculis dolor nulla, a
+              maximus ipsum sollicitudin et. Ut condimentum at orci aliquam
+              feugiat. Curabitur sagittis placerat leo sit amet pharetra. Fusce
+              iaculis dolor nulla, a maximus ipsum sollicitudin et. Ut
+              condimentum at orci aliquam feugiat. Curabitur sagittis placerat
+              leo sit amet pharetra. Fusce iaculis dolor nulla, a maximus ipsum
+              sollicitudin et. Ut condimentum at orci aliquam feugiat. Curabitur
+              sagittis placerat leo sit amet pharetra. Fusce iaculis dolor
+              nulla, a maximus ipsum sollicitudin et. Ut condimentum at orci
+              aliquam feugiat. Curabitur sagittis placerat leo sit amet
+              pharetra. Fusce iaculis dolor nulla, a maximus ipsum sollicitudin
+              et. Ut condimentum at orci aliquam feugiat. Curabitur sagittis
+              placerat leo sit amet pharetra. Fusce iaculis dolor nulla, a
+              maximus ipsum sollicitudin et. Ut condimentum at orci aliquam
+              feugiat. Curabitur sagittis placerat leo sit amet pharetra.
+            </p>
+          </small>
+          <small><m-button label="Primary action"></m-button></small>
+        </template>
+      </m-layer>
+    </div>
+  </div>
 
   <h3>Charts</h3>
 
-  <m-donut
-    title="Elements"
-    data='[{"name":"Success","total":312,"patternId":"blue"},{"name":"Warning","total":99,"patternId":"gray"},{"name":"Information","total":160,"patternId":"orange"},{"name":"Danger","total":160,"patternId":"yellow"}]'
-    colors='["#78be20","#fc961e","#25a8d0","#df382b"]'
-    legendposition="left"
-  ></m-donut>
+  <div class="example">
+    <m-donut
+      title="Elements"
+      data='[{"name":"Success","total":312,"patternId":"blue"},{"name":"Warning","total":99,"patternId":"gray"},{"name":"Information","total":160,"patternId":"orange"},{"name":"Danger","total":160,"patternId":"yellow"}]'
+      colors='["#78be20","#fc961e","#25a8d0","#df382b"]'
+      legendposition="left"
+    ></m-donut>
 
-  <m-bar-chart
-    data='[{"group":"12 Juil.","Data":{"value":"165"}},{"group":"13 Juil.","Data":{"value":"100"}},{"group":"14 Juil.","Data":{"value":"125"}},{"group":"15 Juil.","Data":{"value":"110"}},{"group":"16 Juil.","Data":{"value":"60"}},{"group":"17 Juil.","Data":{"value":"125"}},{"group":"18 Juil.","Data":{"value":"110"}}]'
-    chartheight="350"
-    scalemax="200"
-  ></m-bar-chart>
+    <m-bar-chart
+      data='[{"group":"12 Juil.","Data":{"value":"165"}},{"group":"13 Juil.","Data":{"value":"100"}},{"group":"14 Juil.","Data":{"value":"125"}},{"group":"15 Juil.","Data":{"value":"110"}},{"group":"16 Juil.","Data":{"value":"60"}},{"group":"17 Juil.","Data":{"value":"125"}},{"group":"18 Juil.","Data":{"value":"110"}}]'
+      chartheight="350"
+      scalemax="200"
+    ></m-bar-chart>
+  </div>
 </template>
 
 <script>
@@ -369,5 +412,17 @@ export default {
 
 .form-item {
   width: 40%;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 2rem 2rem;
+  background-color: white;
+  height: 6rem;
+}
+
+h2, h3 {
+  padding-left: 2rem;
 }
 </style>

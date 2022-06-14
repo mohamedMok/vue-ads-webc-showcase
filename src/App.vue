@@ -12,15 +12,19 @@
   </m-notification> 
   </div>
   
-  <ShowcaseAdeo v-if="toggleTheme"/>
+  <ShowcaseAdeo v-if="!toggleTheme"/>
   <ShowcaseLM v-else/>
 </template>
 
 <script>
 import ShowcaseAdeo from "./components/ShowcaseAdeo.vue";
 import ShowcaseLM from "./components/ShowcaseLM.vue";
+import Donut from "@mozaic-ds/mozaic-web-components/public/adeo/components/chart/Donut.js";
 import Notification from '@mozaic-ds/mozaic-web-components/public/adeo/components/notification/Notification.js';
 
+if (!customElements.get('m-donut')) {
+  customElements.define('m-donut', Donut);
+}
 if (!customElements.get('m-notification')) {
   customElements.define('m-notification', Notification);
 }
@@ -35,7 +39,7 @@ export default {
   },
   data() {
     return {
-      toggleTheme: true,
+      toggleTheme: false,
     };
   },
   methods: {
@@ -69,6 +73,7 @@ body {
   align-items: center;
   font-weight: 700;
   font-size: 16px;
+  padding-left: 2rem;
 }
 
 .welcome {
@@ -80,6 +85,7 @@ body {
   font-weight: 300;
   font-size: 59px;
   line-height: 80px;
+  padding-left: 2rem;
 }
 
 .theming {
