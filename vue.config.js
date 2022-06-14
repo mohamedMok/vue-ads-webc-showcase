@@ -9,6 +9,7 @@ pluginList = pluginList.filter(
 );
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/vue-ads-webc-showcase/" : "/",
   productionSourceMap: process.env.MOZAIC_PRESET === "adeo" ? false : true,
   chainWebpack: (config) => {
     config.module
