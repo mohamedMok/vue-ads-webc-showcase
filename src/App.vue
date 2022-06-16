@@ -64,10 +64,10 @@ export default {
 }
 body {
   margin: 0;
-  background-color: #EAEDEF;
+  background-color: $color-secondary-blue-100;
 }
 .header {
-  background-color: #48bac4;
+  background-color: $color-primary-01-300;
   height: 2.375rem;
   display: flex;
   align-items: center;
@@ -81,20 +81,20 @@ body {
   align-items: center;
   height: 25rem;
   color: white;
-  background-color: #082435;
+  background-color: $color-secondary-blue-900;
   font-weight: 300;
   font-size: 59px;
   line-height: 80px;
-  padding-left: 2rem;
+  padding-left: $mu200;
 }
 
 .theming {
-  background-color: white;
-  padding: 2rem;
+  background-color: $color-grey-000;
+  padding: $mu200;
 }
 
 .notif {
-  background-color: white;
-  padding: 2rem;
+  background-color: $color-grey-000;
+  padding: $mu200;
 }
 </style>

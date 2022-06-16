@@ -1,7 +1,7 @@
 <template>
   <h2 class="title">Basic components</h2>
   <div class="wrapper">
-    <h3>Buttons</h3>
+    <h3 class="sub-title">Buttons</h3>
     <div class="example">
       <div class="items">
         <m-button label="Button label" />
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-  <h3>Badges</h3>
+  <h3 class="sub-title">Badges</h3>
   <div class="example">
     <div class="items">
       <m-badge label="Primary"></m-badge>
@@ -67,7 +67,7 @@
     </div>
   </div>
 
-  <h2>Form elements</h2>
+  <h2 class="sub-title">Form elements</h2>
   <div class="example">
     <h3>Text input</h3>
     <div class="form-item">
@@ -168,7 +168,7 @@
   </div>
 
   <h2 class="title">Complex component</h2>
-  <h3>Cards</h3>
+  <h3 class="sub-title">Cards</h3>
   <div class="example">
     <div class="items">
       <m-card
@@ -199,7 +199,7 @@
       </m-card>
     </div>
   </div>
-  <h3>Layer</h3>
+  <h3 class="sub-title">Layer</h3>
   <div class="example">
     <div class="items">
       <m-button label="Open Layer " @click="manageLayer()"></m-button>
@@ -256,7 +256,7 @@
     </div>
   </div>
 
-  <h3>Charts</h3>
+  <h3 class="sub-title">Charts</h3>
 
   <div class="example">
     <m-donut
@@ -396,18 +396,23 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
+@import 'settings-tools/all-settings';
 .example {
-  margin: 2rem;
-  padding: 3rem;
-  background-color: white;
-  border-radius: 8px;
+  margin: $mu200;
+  padding: $mu300;
+  background-color: $color-grey-000;
+  border-radius: get-border-radius('l');
 }
 
 .items {
   display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  gap: $mu200;
+  margin-bottom: $mu300;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .form-item {
@@ -417,12 +422,11 @@ export default {
 .title {
   display: flex;
   align-items: flex-end;
-  padding: 0 0 2rem 2rem;
-  background-color: white;
-  height: 6rem;
+  padding: 0 0 $mu200 $mu200;
+  background-color: $color-grey-000;
+  height: $mu600;
 }
-
-h2, h3 {
-  padding-left: 2rem;
+.sub-title {
+  padding-left: $mu200;
 }
 </style>
