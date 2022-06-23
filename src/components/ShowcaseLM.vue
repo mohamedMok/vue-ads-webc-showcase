@@ -425,6 +425,7 @@ export default {
   padding: 0 0 $mu200 $mu200;
   background-color: $color-grey-000;
   height: $mu600;
+  margin: 0;
 }
 .sub-title {
   padding-left: $mu200;

@@ -1,66 +1,91 @@
-<template>
-  <header class="header">ADEO Design System</header>
-  <div class="welcome">
-    Welcome to ADEO Design System’s Web Components showcase
+<template :style="cssVars">
+  <div class="main" :style="cssVars">
+    <header class="header">ADEO Design System</header>
+    <div class="welcome">
+      Welcome to ADEO Design System’s Web Components showcase
+    </div>
+    <div class="mc-divider-bottom theming">
+      <m-toggle
+        label="Switch to LEROY MERLIN theme"
+        :checked="toggleTheme"
+        @click="handleToggle()"
+      ></m-toggle>
+    </div>
+    <div class="notif">
+      <m-notification
+        title="Information"
+        href="https://mozaic.adeo.cloud/"
+        linkcontent="Go to Mozaic Design System"
+      >
+        The showcase’s purpose is to present the efficiency of the
+        Web-Components. Take note that this is not a comprehensive
+        representation of the catalogue. Please, browse the official website to
+        find out more.
+      </m-notification>
+    </div>
+
+    <ShowcaseAdeo v-if="!toggleTheme" />
+    <ShowcaseLM v-else />
   </div>
-  <div class="mc-divider-bottom theming">
-    <m-toggle label="Switch to LEROY MERLIN theme" :checked="toggleTheme" @click="handleToggle()"></m-toggle>
-  </div>
-  <div class="notif">
-    <m-notification class="notif" title="Information" href="https://mozaic.adeo.cloud/" linkcontent="Go to Mozaic Design System">
-    The showcase’s purpose is to present the efficiency of the Web-Components. Take note that this is not a comprehensive representation of the catalogue. Please, browse the official website to find out more. 
-  </m-notification> 
-  </div>
-  
-  <ShowcaseAdeo v-if="!toggleTheme"/>
-  <ShowcaseLM v-else/>
 </template>
 
 <script>
 import ShowcaseAdeo from "./components/ShowcaseAdeo.vue";
 import ShowcaseLM from "./components/ShowcaseLM.vue";
 import Donut from "@mozaic-ds/mozaic-web-components/public/adeo/components/chart/Donut.js";
-import Notification from '@mozaic-ds/mozaic-web-components/public/adeo/components/notification/Notification.js';
+import Notification from "@mozaic-ds/mozaic-web-components/public/adeo/components/notification/Notification.js";
 
-if (!customElements.get('m-donut')) {
-  customElements.define('m-donut', Donut);
+if (!customElements.get("m-donut")) {
+  customElements.define("m-donut", Donut);
 }
-if (!customElements.get('m-notification')) {
-  customElements.define('m-notification', Notification);
+if (!customElements.get("m-notification")) {
+  customElements.define("m-notification", Notification);
 }
 export default {
   name: "App",
   components: {
     ShowcaseAdeo,
-    ShowcaseLM
+    ShowcaseLM,
   },
   mounted() {
-    console.log('mounted')
+    console.log("mounted");
   },
   data() {
     return {
       toggleTheme: false,
     };
   },
+  computed: {
+    cssVars() {
+      return {
+        '--font-family': this.toggleTheme ? 'Leroy Merlin' : 'Roboto',
+      }
+    }
+  },
   methods: {
     handleToggle() {
-      this.toggleTheme = !this.toggleTheme
-    }
-  }
+      this.toggleTheme = !this.toggleTheme;
+    },
+  },
 };
 </script>
 
 <style lang="scss">
-@import 'settings-tools/all-settings';
-@import 'components/_c.divider';
+@import "settings-tools/all-settings";
+@import "components/_c.divider";
 
 @font-face {
-  font-family: Leroy Merlin;
+  font-family: Roboto;
   src: url(assets/Roboto/Roboto-Medium.ttf) format("ttf");
 }
 
-* {
-  font-family: "Roboto", sans-serif;
+@font-face {
+  font-family: Leroy Merlin;
+  src: url(assets/LM/LeroyMerlinSans-Web-Regular.woff) format("woff");
+}
+
+.main {
+  font-family: var(--font-family); 
 }
 body {
   margin: 0;
