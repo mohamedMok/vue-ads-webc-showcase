@@ -7,7 +7,7 @@
     <m-toggle label="Switch to LEROY MERLIN theme" :checked="toggleTheme" @click="handleToggle()"></m-toggle>
   </div>
   <div class="notif">
-    <m-notification class="notif" title="Information" href="https://mozaic.adeo.cloud/" linkcontent="Go to Mozaic Design System">
+    <m-notification title="Information" href="https://mozaic.adeo.cloud/" linkcontent="Go to Mozaic Design System">
     The showcase’s purpose is to present the efficiency of the Web-Components. Take note that this is not a comprehensive representation of the catalogue. Please, browse the official website to find out more. 
   </m-notification> 
   </div>
