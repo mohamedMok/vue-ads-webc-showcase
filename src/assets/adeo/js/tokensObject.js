@@ -316,7 +316,7 @@ module.exports = {
       },
       "neutral": {
         "background": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -337,7 +337,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#8c8b85",
+          "value": "#808080",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -358,7 +358,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#555550",
+          "value": "#4d4d4d",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/badge.json",
           "isSource": true,
           "original": {
@@ -555,11 +555,11 @@ module.exports = {
     },
     "primary-02": {
       "100": {
-        "value": "#dbedea",
+        "value": "#eeeff1",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#DBEDEA"
+          "value": "#EEEFF1"
         },
         "name": "ColorPrimary02100",
         "attributes": {
@@ -574,11 +574,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#a5d1cb",
+        "value": "#cfd2d8",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#A5D1CB"
+          "value": "#CFD2D8"
         },
         "name": "ColorPrimary02200",
         "attributes": {
@@ -593,11 +593,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#6eb4ad",
+        "value": "#b3b7c1",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#6EB4AD"
+          "value": "#B3B7C1"
         },
         "name": "ColorPrimary02300",
         "attributes": {
@@ -612,11 +612,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#379590",
+        "value": "#8f94a3",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#379590"
+          "value": "#8F94A3"
         },
         "name": "ColorPrimary02400",
         "attributes": {
@@ -631,11 +631,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#007574",
+        "value": "#6a7081",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#007574"
+          "value": "#6A7081"
         },
         "name": "ColorPrimary02500",
         "attributes": {
@@ -650,11 +650,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#035f64",
+        "value": "#494f60",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#035F64"
+          "value": "#494F60"
         },
         "name": "ColorPrimary02600",
         "attributes": {
@@ -669,11 +669,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#044c53",
+        "value": "#343b4c",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#044C53"
+          "value": "#343B4C"
         },
         "name": "ColorPrimary02700",
         "attributes": {
@@ -688,11 +688,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#063a44",
+        "value": "#242938",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#063A44"
+          "value": "#242938"
         },
         "name": "ColorPrimary02800",
         "attributes": {
@@ -707,11 +707,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#062b35",
+        "value": "#171b26",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#062B35"
+          "value": "#171B26"
         },
         "name": "ColorPrimary02900",
         "attributes": {
@@ -728,11 +728,11 @@ module.exports = {
     },
     "grey": {
       "100": {
-        "value": "#eeedea",
+        "value": "#e6e6e6",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EEEDEA"
+          "value": "#E6E6E6"
         },
         "name": "ColorGrey100",
         "attributes": {
@@ -747,11 +747,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#dddcd5",
+        "value": "#cccccc",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#DDDCD5"
+          "value": "#CCCCCC"
         },
         "name": "ColorGrey200",
         "attributes": {
@@ -766,11 +766,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#c2c1ba",
+        "value": "#b3b3b3",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#C2C1BA"
+          "value": "#B3B3B3"
         },
         "name": "ColorGrey300",
         "attributes": {
@@ -785,11 +785,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#a7a6a0",
+        "value": "#999999",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#A7A6A0"
+          "value": "#999999"
         },
         "name": "ColorGrey400",
         "attributes": {
@@ -804,11 +804,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#8c8b85",
+        "value": "#808080",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#8C8B85"
+          "value": "#808080"
         },
         "name": "ColorGrey500",
         "attributes": {
@@ -823,11 +823,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#71706b",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#71706B"
+          "value": "#666666"
         },
         "name": "ColorGrey600",
         "attributes": {
@@ -842,11 +842,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#555550",
+        "value": "#4d4d4d",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#555550"
+          "value": "#4D4D4D"
         },
         "name": "ColorGrey700",
         "attributes": {
@@ -861,11 +861,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#3a3936",
+        "value": "#333333",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#3A3936"
+          "value": "#333333"
         },
         "name": "ColorGrey800",
         "attributes": {
@@ -880,11 +880,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#1e1e1c",
+        "value": "#191919",
         "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#1E1E1C"
+          "value": "#191919"
         },
         "name": "ColorGrey900",
         "attributes": {
@@ -1458,11 +1458,11 @@ module.exports = {
     },
     "secondary-red": {
       "100": {
-        "value": "#feedee",
+        "value": "#fdeaea",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FEEDEE"
+          "value": "#FDEAEA"
         },
         "name": "ColorSecondaryRed100",
         "attributes": {
@@ -1477,11 +1477,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#fab9bc",
+        "value": "#f8bcbb",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FAB9BC"
+          "value": "#F8BCBB"
         },
         "name": "ColorSecondaryRed200",
         "attributes": {
@@ -1496,11 +1496,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#f38789",
+        "value": "#f38d8c",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#F38789"
+          "value": "#F38D8C"
         },
         "name": "ColorSecondaryRed300",
         "attributes": {
@@ -1515,11 +1515,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ea5d58",
+        "value": "#ef5f5c",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#EA5D58"
+          "value": "#EF5F5C"
         },
         "name": "ColorSecondaryRed400",
         "attributes": {
@@ -1534,11 +1534,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#df382b",
+        "value": "#ea302d",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#DF382B"
+          "value": "#EA302D"
         },
         "name": "ColorSecondaryRed500",
         "attributes": {
@@ -1553,11 +1553,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#b42a27",
+        "value": "#c61112",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#B42A27"
+          "value": "#C61112"
         },
         "name": "ColorSecondaryRed600",
         "attributes": {
@@ -1572,11 +1572,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#8b2226",
+        "value": "#8c0003",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#8B2226"
+          "value": "#8C0003"
         },
         "name": "ColorSecondaryRed700",
         "attributes": {
@@ -1591,11 +1591,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#641b21",
+        "value": "#530000",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#641B21"
+          "value": "#530000"
         },
         "name": "ColorSecondaryRed800",
         "attributes": {
@@ -1610,11 +1610,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#3e1219",
+        "value": "#2d0000",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#3E1219"
+          "value": "#2D0000"
         },
         "name": "ColorSecondaryRed900",
         "attributes": {
@@ -1631,11 +1631,11 @@ module.exports = {
     },
     "secondary-orange": {
       "100": {
-        "value": "#fff5eb",
+        "value": "#fdf1e8",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FFF5EB"
+          "value": "#FDF1E8"
         },
         "name": "ColorSecondaryOrange100",
         "attributes": {
@@ -1650,11 +1650,11 @@ module.exports = {
         ]
       },
       "200": {
-        "value": "#ffdab2",
+        "value": "#f8d2b3",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FFDAB2"
+          "value": "#F8D2B3"
         },
         "name": "ColorSecondaryOrange200",
         "attributes": {
@@ -1669,11 +1669,11 @@ module.exports = {
         ]
       },
       "300": {
-        "value": "#ffc17d",
+        "value": "#f4b27e",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FFC17D"
+          "value": "#F4B27E"
         },
         "name": "ColorSecondaryOrange300",
         "attributes": {
@@ -1688,11 +1688,11 @@ module.exports = {
         ]
       },
       "400": {
-        "value": "#ffab4b",
+        "value": "#ef934a",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FFAB4B"
+          "value": "#EF934A"
         },
         "name": "ColorSecondaryOrange400",
         "attributes": {
@@ -1707,11 +1707,11 @@ module.exports = {
         ]
       },
       "500": {
-        "value": "#fc961e",
+        "value": "#ea7315",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#FC961E"
+          "value": "#EA7315"
         },
         "name": "ColorSecondaryOrange500",
         "attributes": {
@@ -1726,11 +1726,11 @@ module.exports = {
         ]
       },
       "600": {
-        "value": "#c86f21",
+        "value": "#c65200",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#C86F21"
+          "value": "#C65200"
         },
         "name": "ColorSecondaryOrange600",
         "attributes": {
@@ -1745,11 +1745,11 @@ module.exports = {
         ]
       },
       "700": {
-        "value": "#974f20",
+        "value": "#8c3500",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#974F20"
+          "value": "#8C3500"
         },
         "name": "ColorSecondaryOrange700",
         "attributes": {
@@ -1764,11 +1764,11 @@ module.exports = {
         ]
       },
       "800": {
-        "value": "#6a351c",
+        "value": "#531b00",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#6A351C"
+          "value": "#531B00"
         },
         "name": "ColorSecondaryOrange800",
         "attributes": {
@@ -1783,11 +1783,11 @@ module.exports = {
         ]
       },
       "900": {
-        "value": "#401f15",
+        "value": "#360e00",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/base.json",
         "isSource": true,
         "original": {
-          "value": "#401F15"
+          "value": "#360E00"
         },
         "name": "ColorSecondaryOrange900",
         "attributes": {
@@ -2667,6 +2667,46 @@ module.exports = {
         ]
       }
     },
+    "breadcrumb": {
+      "arrow": {
+        "value": "#333333",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/breadcrumb.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.800.value}"
+        },
+        "name": "ColorBreadcrumbArrow",
+        "attributes": {
+          "category": "color",
+          "type": "breadcrumb",
+          "item": "arrow"
+        },
+        "path": [
+          "color",
+          "breadcrumb",
+          "arrow"
+        ]
+      },
+      "arrow-invert": {
+        "value": "#ffffff",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/breadcrumb.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorBreadcrumbArrowInvert",
+        "attributes": {
+          "category": "color",
+          "type": "breadcrumb",
+          "item": "arrow-invert"
+        },
+        "path": [
+          "color",
+          "breadcrumb",
+          "arrow-invert"
+        ]
+      }
+    },
     "button": {
       "solid": {
         "background": {
@@ -2738,7 +2778,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2761,7 +2801,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2860,7 +2900,7 @@ module.exports = {
       },
       "solid-primary-02": {
         "background": {
-          "value": "#007574",
+          "value": "#6a7081",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -2903,7 +2943,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#062b35",
+            "value": "#171b26",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2928,7 +2968,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2951,7 +2991,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -2976,7 +3016,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#062b35",
+            "value": "#171b26",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3001,7 +3041,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#063a44",
+            "value": "#242938",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3050,7 +3090,7 @@ module.exports = {
       },
       "solid-neutral": {
         "background": {
-          "value": "#3a3936",
+          "value": "#333333",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3093,7 +3133,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3118,7 +3158,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3141,7 +3181,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3166,7 +3206,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#3a3936",
+            "value": "#333333",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3191,7 +3231,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3240,7 +3280,7 @@ module.exports = {
       },
       "solid-danger": {
         "background": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/button.json",
           "isSource": true,
           "original": {
@@ -3308,7 +3348,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3331,7 +3371,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3519,7 +3559,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3542,7 +3582,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3639,7 +3679,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#007574",
+          "value": "#6a7081",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3660,7 +3700,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#007574",
+          "value": "#6a7081",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3682,7 +3722,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#062b35",
+            "value": "#171b26",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3707,7 +3747,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3730,7 +3770,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3755,7 +3795,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#a5d1cb",
+            "value": "#cfd2d8",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3780,7 +3820,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#dbedea",
+            "value": "#eeeff1",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3827,7 +3867,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#3a3936",
+          "value": "#333333",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3848,7 +3888,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#3a3936",
+          "value": "#333333",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
           "isSource": true,
           "original": {
@@ -3870,7 +3910,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3895,7 +3935,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3918,7 +3958,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3943,7 +3983,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -3968,7 +4008,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#eeedea",
+            "value": "#e6e6e6",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4015,7 +4055,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/button.json",
           "isSource": true,
           "original": {
@@ -4036,7 +4076,7 @@ module.exports = {
           ]
         },
         "font": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/button.json",
           "isSource": true,
           "original": {
@@ -4058,7 +4098,7 @@ module.exports = {
         },
         "focus": {
           "border": {
-            "value": "#8b2226",
+            "value": "#8c0003",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4083,7 +4123,7 @@ module.exports = {
         },
         "disabled": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4106,7 +4146,7 @@ module.exports = {
             ]
           },
           "font": {
-            "value": "#71706b",
+            "value": "#666666",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4131,7 +4171,7 @@ module.exports = {
         },
         "active": {
           "background": {
-            "value": "#fab9bc",
+            "value": "#f8bcbb",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4156,7 +4196,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "#feedee",
+            "value": "#fdeaea",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/button.json",
             "isSource": true,
             "original": {
@@ -4181,6 +4221,134 @@ module.exports = {
         }
       }
     },
+    "card": {
+      "bordered": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorCardBorderedBackground",
+          "attributes": {
+            "category": "color",
+            "type": "card",
+            "item": "bordered",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "card",
+            "bordered",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#808080",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.500.value}"
+          },
+          "name": "ColorCardBorderedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "card",
+            "item": "bordered",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "card",
+            "bordered",
+            "border"
+          ]
+        }
+      }
+    },
+    "dialog": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorDialogBackground",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "dialog",
+          "background"
+        ]
+      },
+      "icon": {
+        "value": "#666666",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorDialogIcon",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "dialog",
+          "icon"
+        ]
+      },
+      "close": {
+        "value": "#808080",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.500.value}"
+        },
+        "name": "ColorDialogClose",
+        "attributes": {
+          "category": "color",
+          "type": "dialog",
+          "item": "close"
+        },
+        "path": [
+          "color",
+          "dialog",
+          "close"
+        ]
+      },
+      "footer": {
+        "shadow": {
+          "value": "#191919",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorDialogFooterShadow",
+          "attributes": {
+            "category": "color",
+            "type": "dialog",
+            "item": "footer",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "dialog",
+            "footer",
+            "shadow"
+          ]
+        }
+      }
+    },
     "divider": {
       "lightest": {
         "value": "#ffffff",
@@ -4202,7 +4370,7 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#c2c1ba",
+        "value": "#b3b3b3",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/divider.json",
         "isSource": true,
         "original": {
@@ -4221,7 +4389,7 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#71706b",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/divider.json",
         "isSource": true,
         "original": {
@@ -4280,7 +4448,7 @@ module.exports = {
         ]
       },
       "label": {
-        "value": "#3a3936",
+        "value": "#333333",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4299,7 +4467,7 @@ module.exports = {
         ]
       },
       "requirement": {
-        "value": "#71706b",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4318,7 +4486,7 @@ module.exports = {
         ]
       },
       "help": {
-        "value": "#71706b",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/fields.json",
         "isSource": true,
         "original": {
@@ -4359,7 +4527,7 @@ module.exports = {
       },
       "files": {
         "list": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json",
           "isSource": true,
           "original": {
@@ -4380,7 +4548,7 @@ module.exports = {
           ]
         },
         "delete": {
-          "value": "#dddcd5",
+          "value": "#cccccc",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/fileuploder.json",
           "isSource": true,
           "original": {
@@ -4703,7 +4871,7 @@ module.exports = {
       },
       "solid-danger": {
         "background": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/flag.json",
           "isSource": true,
           "original": {
@@ -4724,7 +4892,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5049,7 +5217,7 @@ module.exports = {
           ]
         },
         "border": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5070,7 +5238,7 @@ module.exports = {
           ]
         },
         "text": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/flag.json",
           "isSource": true,
           "original": {
@@ -5134,11 +5302,11 @@ module.exports = {
     },
     "font": {
       "primary-01": {
-        "value": "#00919f",
+        "value": "#007f8c",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.500.value}"
+          "value": "{color.primary-01.600.value}"
         },
         "name": "ColorFontPrimary01",
         "attributes": {
@@ -5153,7 +5321,7 @@ module.exports = {
         ]
       },
       "primary-02": {
-        "value": "#007574",
+        "value": "#6a7081",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5191,7 +5359,7 @@ module.exports = {
         ]
       },
       "darker": {
-        "value": "#1e1e1c",
+        "value": "#191919",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5210,7 +5378,7 @@ module.exports = {
         ]
       },
       "dark": {
-        "value": "#3a3936",
+        "value": "#333333",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5229,7 +5397,7 @@ module.exports = {
         ]
       },
       "light": {
-        "value": "#71706b",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/font.json",
         "isSource": true,
         "original": {
@@ -5343,9 +5511,80 @@ module.exports = {
         ]
       }
     },
+    "heading": {
+      "underline": {
+        "default": {
+          "value": "#00919f",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/heading.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.500.value}"
+          },
+          "name": "ColorHeadingUnderlineDefault",
+          "attributes": {
+            "category": "color",
+            "type": "heading",
+            "item": "underline",
+            "subitem": "default"
+          },
+          "path": [
+            "color",
+            "heading",
+            "underline",
+            "default"
+          ]
+        },
+        "lightest": {
+          "value": "#91d5db",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/heading.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-01.200.value}"
+          },
+          "name": "ColorHeadingUnderlineLightest",
+          "attributes": {
+            "category": "color",
+            "type": "heading",
+            "item": "underline",
+            "subitem": "lightest"
+          },
+          "path": [
+            "color",
+            "heading",
+            "underline",
+            "lightest"
+          ]
+        }
+      }
+    },
+    "hero": {
+      "cover": {
+        "background": {
+          "value": "#191919",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/hero.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorHeroCoverBackground",
+          "attributes": {
+            "category": "color",
+            "type": "hero",
+            "item": "cover",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "hero",
+            "cover",
+            "background"
+          ]
+        }
+      }
+    },
     "input": {
       "text": {
-        "value": "#1e1e1c",
+        "value": "#191919",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
@@ -5364,7 +5603,7 @@ module.exports = {
         ]
       },
       "border": {
-        "value": "#71706b",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
@@ -5383,7 +5622,7 @@ module.exports = {
         ]
       },
       "placeholder": {
-        "value": "#8c8b85",
+        "value": "#808080",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
         "isSource": true,
         "original": {
@@ -5422,7 +5661,7 @@ module.exports = {
       },
       "disabled": {
         "border": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5443,7 +5682,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5464,7 +5703,7 @@ module.exports = {
           ]
         },
         "icon": {
-          "value": "#a7a6a0",
+          "value": "#999999",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5487,7 +5726,7 @@ module.exports = {
       },
       "hover": {
         "border": {
-          "value": "#1e1e1c",
+          "value": "#191919",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/input.json",
           "isSource": true,
           "original": {
@@ -5742,7 +5981,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#3a3936",
+          "value": "#333333",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5763,7 +6002,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#3a3936",
+          "value": "#333333",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5784,7 +6023,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5805,7 +6044,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#71706b",
+          "value": "#666666",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5849,7 +6088,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#dddcd5",
+          "value": "#cccccc",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5870,7 +6109,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#dddcd5",
+          "value": "#cccccc",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5891,7 +6130,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5912,7 +6151,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#a7a6a0",
+          "value": "#999999",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -5998,7 +6237,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6019,11 +6258,11 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#002e33",
+          "value": "#004e57",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
-            "value": "{color.primary-01.900.value}"
+            "value": "{color.primary-01.800.value}"
           },
           "name": "ColorLinkPrimaryHover",
           "attributes": {
@@ -6042,7 +6281,7 @@ module.exports = {
       },
       "primary-02": {
         "base": {
-          "value": "#035f64",
+          "value": "#494f60",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6063,7 +6302,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#044c53",
+          "value": "#343b4c",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6084,7 +6323,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#044c53",
+          "value": "#343b4c",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6105,7 +6344,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6126,7 +6365,7 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#062b35",
+          "value": "#171b26",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6149,7 +6388,7 @@ module.exports = {
       },
       "danger": {
         "base": {
-          "value": "#b42a27",
+          "value": "#c61112",
           "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/link.json",
           "isSource": true,
           "original": {
@@ -6170,7 +6409,7 @@ module.exports = {
           ]
         },
         "visited": {
-          "value": "#8b2226",
+          "value": "#8c0003",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6191,7 +6430,7 @@ module.exports = {
           ]
         },
         "active": {
-          "value": "#8b2226",
+          "value": "#8c0003",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6212,7 +6451,7 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
@@ -6233,11 +6472,11 @@ module.exports = {
           ]
         },
         "hover": {
-          "value": "#3e1219",
+          "value": "#530000",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/link.json",
           "isSource": true,
           "original": {
-            "value": "{color.secondary-red.900.value}"
+            "value": "{color.secondary-red.800.value}"
           },
           "name": "ColorLinkDangerHover",
           "attributes": {
@@ -6251,6 +6490,138 @@ module.exports = {
             "link",
             "danger",
             "hover"
+          ]
+        }
+      }
+    },
+    "listbox": {
+      "background": {
+        "value": "#ffffff",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/listbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorListboxBackground",
+        "attributes": {
+          "category": "color",
+          "type": "listbox",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "listbox",
+          "background"
+        ]
+      },
+      "border": {
+        "value": "#666666",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/listbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.600.value}"
+        },
+        "name": "ColorListboxBorder",
+        "attributes": {
+          "category": "color",
+          "type": "listbox",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "listbox",
+          "border"
+        ]
+      },
+      "tile": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorListboxTileBorder",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "tile",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "tile",
+            "border"
+          ]
+        },
+        "shadow": {
+          "value": "#191919",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.900.value}"
+          },
+          "name": "ColorListboxTileShadow",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "tile",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "tile",
+            "shadow"
+          ]
+        },
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/listbox.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorListboxTileHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "listbox",
+              "item": "tile",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "listbox",
+              "tile",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "#cccccc",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/listbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorListboxDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "listbox",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "listbox",
+            "disabled",
+            "background"
           ]
         }
       }
@@ -6317,6 +6688,27 @@ module.exports = {
             "information",
             "border"
           ]
+        },
+        "icon": {
+          "value": "#007bb4",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.info.600.value}"
+          },
+          "name": "ColorNotificationInformationIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "information",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "information",
+            "icon"
+          ]
         }
       },
       "success": {
@@ -6360,6 +6752,27 @@ module.exports = {
             "notification",
             "success",
             "border"
+          ]
+        },
+        "icon": {
+          "value": "#188803",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.600.value}"
+          },
+          "name": "ColorNotificationSuccessIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "success",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "success",
+            "icon"
           ]
         }
       },
@@ -6405,6 +6818,27 @@ module.exports = {
             "warning",
             "border"
           ]
+        },
+        "icon": {
+          "value": "#c65200",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.warning.600.value}"
+          },
+          "name": "ColorNotificationWarningIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "warning",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "warning",
+            "icon"
+          ]
         }
       },
       "danger": {
@@ -6449,12 +6883,433 @@ module.exports = {
             "danger",
             "border"
           ]
+        },
+        "icon": {
+          "value": "#c61112",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/notification.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.danger.600.value}"
+          },
+          "name": "ColorNotificationDangerIcon",
+          "attributes": {
+            "category": "color",
+            "type": "notification",
+            "item": "danger",
+            "subitem": "icon"
+          },
+          "path": [
+            "color",
+            "notification",
+            "danger",
+            "icon"
+          ]
+        }
+      }
+    },
+    "option-button": {
+      "label": {
+        "shadow": {
+          "value": "#b3b3b3",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-button.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorOptionButtonLabelShadow",
+          "attributes": {
+            "category": "color",
+            "type": "option-button",
+            "item": "label",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "option-button",
+            "label",
+            "shadow"
+          ]
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "#333333",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorOptionButtonHoverLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "hover",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "hover",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "#00919f",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorOptionButtonCheckedLabelBorder",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "checked",
+              "subitem": "label",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "checked",
+              "label",
+              "border"
+            ]
+          },
+          "shadow": {
+            "value": "#d9f0f3",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorOptionButtonCheckedLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "checked",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "checked",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "disabled": {
+        "label": {
+          "background": {
+            "value": "#cccccc",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.200.value}"
+            },
+            "name": "ColorOptionButtonDisabledLabelBackground",
+            "attributes": {
+              "category": "color",
+              "type": "option-button",
+              "item": "disabled",
+              "subitem": "label",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "option-button",
+              "disabled",
+              "label",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "option-card": {
+      "label": {
+        "shadow": {
+          "value": "#b3b3b3",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-card.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorOptionCardLabelShadow",
+          "attributes": {
+            "category": "color",
+            "type": "option-card",
+            "item": "label",
+            "subitem": "shadow"
+          },
+          "path": [
+            "color",
+            "option-card",
+            "label",
+            "shadow"
+          ]
+        }
+      },
+      "hover": {
+        "label": {
+          "shadow": {
+            "value": "#333333",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.800.value}"
+            },
+            "name": "ColorOptionCardHoverLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "hover",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "hover",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      },
+      "checked": {
+        "label": {
+          "border": {
+            "value": "#00919f",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorOptionCardCheckedLabelBorder",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "checked",
+              "subitem": "label",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "checked",
+              "label",
+              "border"
+            ]
+          },
+          "shadow": {
+            "value": "#d9f0f3",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/option-card.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.100.value}"
+            },
+            "name": "ColorOptionCardCheckedLabelShadow",
+            "attributes": {
+              "category": "color",
+              "type": "option-card",
+              "item": "checked",
+              "subitem": "label",
+              "state": "shadow"
+            },
+            "path": [
+              "color",
+              "option-card",
+              "checked",
+              "label",
+              "shadow"
+            ]
+          }
+        }
+      }
+    },
+    "overlay": {
+      "background": {
+        "value": "#191919",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/overlay.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.900.value}"
+        },
+        "name": "ColorOverlayBackground",
+        "attributes": {
+          "category": "color",
+          "type": "overlay",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "overlay",
+          "background"
+        ]
+      },
+      "loader": {
+        "background": {
+          "value": "#082435",
+          "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/overlay.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary-blue.900.value}"
+          },
+          "name": "ColorOverlayLoaderBackground",
+          "attributes": {
+            "category": "color",
+            "type": "overlay",
+            "item": "loader",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "overlay",
+            "loader",
+            "background"
+          ]
+        }
+      }
+    },
+    "password-input": {
+      "button": {
+        "hover": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/password-input.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorPasswordInputButtonHoverBackground",
+            "attributes": {
+              "category": "color",
+              "type": "password-input",
+              "item": "button",
+              "subitem": "hover",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "password-input",
+              "button",
+              "hover",
+              "background"
+            ]
+          }
+        }
+      }
+    },
+    "phone-number": {
+      "button": {
+        "border": {
+          "value": "#666666",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.600.value}"
+          },
+          "name": "ColorPhoneNumberButtonBorder",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "button",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "button",
+            "border"
+          ]
+        }
+      },
+      "list": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorPhoneNumberListBackground",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "list",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "list",
+            "background"
+          ]
+        }
+      },
+      "item": {
+        "border": {
+          "value": "#b3b3b3",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/phone-number.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.300.value}"
+          },
+          "name": "ColorPhoneNumberItemBorder",
+          "attributes": {
+            "category": "color",
+            "type": "phone-number",
+            "item": "item",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "phone-number",
+            "item",
+            "border"
+          ]
+        },
+        "focus": {
+          "background": {
+            "value": "#e6e6e6",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/phone-number.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.grey.100.value}"
+            },
+            "name": "ColorPhoneNumberItemFocusBackground",
+            "attributes": {
+              "category": "color",
+              "type": "phone-number",
+              "item": "item",
+              "subitem": "focus",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "phone-number",
+              "item",
+              "focus",
+              "background"
+            ]
+          }
         }
       }
     },
     "progress": {
       "background": {
-        "value": "#dddcd5",
+        "value": "#cccccc",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/progressbar.json",
         "isSource": true,
         "original": {
@@ -6493,7 +7348,7 @@ module.exports = {
       },
       "percentage": {
         "default": {
-          "value": "#1e1e1c",
+          "value": "#191919",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/progressbar.json",
           "isSource": true,
           "original": {
@@ -6561,11 +7416,11 @@ module.exports = {
     },
     "star": {
       "empty": {
-        "value": "#dddcd5",
+        "value": "#ffffff",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
-          "value": "{color.grey.200.value}"
+          "value": "{color.grey.000.value}"
         },
         "name": "ColorStarEmpty",
         "attributes": {
@@ -6599,11 +7454,11 @@ module.exports = {
         ]
       },
       "full": {
-        "value": "#fc961e",
+        "value": "#ea7315",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
-          "value": "{color.secondary-orange.500.value}"
+          "value": "#EA7315"
         },
         "name": "ColorStarFull",
         "attributes": {
@@ -6618,7 +7473,7 @@ module.exports = {
         ]
       },
       "hover": {
-        "value": "#ffc17d",
+        "value": "#f4b27e",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/star.json",
         "isSource": true,
         "original": {
@@ -6634,6 +7489,213 @@ module.exports = {
           "color",
           "star",
           "hover"
+        ]
+      }
+    },
+    "stepper": {
+      "item": {
+        "background": {
+          "value": "#999999",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorStepperItemBackground",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "item",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "item",
+            "background"
+          ]
+        },
+        "current": {
+          "background": {
+            "value": "#00919f",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperItemCurrentBackground",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "item",
+              "subitem": "current",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "item",
+              "current",
+              "background"
+            ]
+          }
+        }
+      },
+      "link": {
+        "hover": {
+          "text": {
+            "value": "#00919f",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperLinkHoverText",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "link",
+              "subitem": "hover",
+              "state": "text"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "link",
+              "hover",
+              "text"
+            ]
+          }
+        }
+      },
+      "indicator": {
+        "background": {
+          "value": "#ffffff",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.000.value}"
+          },
+          "name": "ColorStepperIndicatorBackground",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "indicator",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "indicator",
+            "background"
+          ]
+        },
+        "border": {
+          "value": "#999999",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.400.value}"
+          },
+          "name": "ColorStepperIndicatorBorder",
+          "attributes": {
+            "category": "color",
+            "type": "stepper",
+            "item": "indicator",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "stepper",
+            "indicator",
+            "border"
+          ]
+        },
+        "current": {
+          "background": {
+            "value": "#00919f",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperIndicatorCurrentBackground",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "indicator",
+              "subitem": "current",
+              "state": "background"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "indicator",
+              "current",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#00919f",
+            "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary-01.500.value}"
+            },
+            "name": "ColorStepperIndicatorCurrentBorder",
+            "attributes": {
+              "category": "color",
+              "type": "stepper",
+              "item": "indicator",
+              "subitem": "current",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "stepper",
+              "indicator",
+              "current",
+              "border"
+            ]
+          }
+        }
+      },
+      "icon": {
+        "value": "#00919f",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorStepperIcon",
+        "attributes": {
+          "category": "color",
+          "type": "stepper",
+          "item": "icon"
+        },
+        "path": [
+          "color",
+          "stepper",
+          "icon"
+        ]
+      },
+      "title": {
+        "value": "#00919f",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/stepper.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.primary-01.500.value}"
+        },
+        "name": "ColorStepperTitle",
+        "attributes": {
+          "category": "color",
+          "type": "stepper",
+          "item": "title"
+        },
+        "path": [
+          "color",
+          "stepper",
+          "title"
         ]
       }
     },
@@ -6677,11 +7739,11 @@ module.exports = {
         ]
       },
       "default": {
-        "value": "#1e1e1c",
+        "value": "#666666",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.font.darker.value}"
+          "value": "{color.font.light.value}"
         },
         "name": "ColorTabsDefault",
         "attributes": {
@@ -6695,12 +7757,35 @@ module.exports = {
           "default"
         ]
       },
+      "element": {
+        "background": {
+          "value": "#eeeff1",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.100.value}"
+          },
+          "name": "ColorTabsElementBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "element",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "element",
+            "background"
+          ]
+        }
+      },
       "hover": {
-        "value": "#007f8c",
+        "value": "#004e57",
         "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
         "isSource": true,
         "original": {
-          "value": "{color.primary-01.600.value}"
+          "value": "{color.primary-01.800.value}"
         },
         "name": "ColorTabsHover",
         "attributes": {
@@ -6715,42 +7800,115 @@ module.exports = {
         ]
       },
       "disabled": {
-        "value": "#71706b",
-        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.font.light.value}"
-        },
-        "name": "ColorTabsDisabled",
-        "attributes": {
-          "category": "color",
-          "type": "tabs",
-          "item": "disabled"
-        },
-        "path": [
-          "color",
-          "tabs",
-          "disabled"
-        ]
+        "background": {
+          "value": "#cccccc",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.200.value}"
+          },
+          "name": "ColorTabsDisabledBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "disabled",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "disabled",
+            "background"
+          ]
+        }
       },
       "active": {
-        "value": "#00919f",
-        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
-        "isSource": true,
-        "original": {
-          "value": "{color.font.primary-01.value}"
+        "background": {
+          "value": "#cfd2d8",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary-02.200.value}"
+          },
+          "name": "ColorTabsActiveBackground",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "active",
+            "subitem": "background"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "active",
+            "background"
+          ]
         },
-        "name": "ColorTabsActive",
-        "attributes": {
-          "category": "color",
-          "type": "tabs",
-          "item": "active"
+        "text": {
+          "value": "#333333",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.font.dark.value}"
+          },
+          "name": "ColorTabsActiveText",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "active",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "active",
+            "text"
+          ]
+        }
+      },
+      "selected": {
+        "border": {
+          "value": "#000000",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.grey.999.value}"
+          },
+          "name": "ColorTabsSelectedBorder",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "selected",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "selected",
+            "border"
+          ]
         },
-        "path": [
-          "color",
-          "tabs",
-          "active"
-        ]
+        "text": {
+          "value": "#000000",
+          "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tabs.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.font.darkest.value}"
+          },
+          "name": "ColorTabsSelectedText",
+          "attributes": {
+            "category": "color",
+            "type": "tabs",
+            "item": "selected",
+            "subitem": "text"
+          },
+          "path": [
+            "color",
+            "tabs",
+            "selected",
+            "text"
+          ]
+        }
       },
       "active-disabled": {
         "value": "#91d5db",
@@ -6799,7 +7957,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#8c8b85",
+            "value": "#808080",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6822,7 +7980,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6847,7 +8005,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6943,7 +8101,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#8c8b85",
+            "value": "#808080",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6966,7 +8124,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -6990,7 +8148,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#eeedea",
+              "value": "#e6e6e6",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7016,7 +8174,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#dddcd5",
+              "value": "#cccccc",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7043,7 +8201,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7113,7 +8271,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#3a3936",
+              "value": "#333333",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7139,7 +8297,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#555550",
+              "value": "#4d4d4d",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7191,7 +8349,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#8c8b85",
+            "value": "#808080",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7214,7 +8372,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7338,7 +8496,7 @@ module.exports = {
           },
           "disabled": {
             "background": {
-              "value": "#eeedea",
+              "value": "#e6e6e6",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7362,7 +8520,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#8c8b85",
+              "value": "#808080",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7466,7 +8624,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7610,7 +8768,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#1e1e1c",
+              "value": "#191919",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7684,7 +8842,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#1e1e1c",
+              "value": "#191919",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7737,7 +8895,7 @@ module.exports = {
           },
           "disabled": {
             "background": {
-              "value": "#555550",
+              "value": "#4d4d4d",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7761,7 +8919,7 @@ module.exports = {
               ]
             },
             "text": {
-              "value": "#8c8b85",
+              "value": "#808080",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7790,7 +8948,7 @@ module.exports = {
       "removable": {
         "light": {
           "background": {
-            "value": "#3a3936",
+            "value": "#333333",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7836,7 +8994,7 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7860,7 +9018,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#555550",
+              "value": "#4d4d4d",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7886,7 +9044,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#71706b",
+              "value": "#666666",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -7913,7 +9071,7 @@ module.exports = {
         },
         "dark": {
           "background": {
-            "value": "#dddcd5",
+            "value": "#cccccc",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7936,7 +9094,7 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7959,7 +9117,7 @@ module.exports = {
             ]
           },
           "icon": {
-            "value": "#1e1e1c",
+            "value": "#191919",
             "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
             "isSource": true,
             "original": {
@@ -7983,7 +9141,7 @@ module.exports = {
           },
           "hover": {
             "background": {
-              "value": "#c2c1ba",
+              "value": "#b3b3b3",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8009,7 +9167,7 @@ module.exports = {
           },
           "active": {
             "background": {
-              "value": "#a7a6a0",
+              "value": "#999999",
               "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tag.json",
               "isSource": true,
               "original": {
@@ -8039,7 +9197,7 @@ module.exports = {
     "toggle": {
       "off": {
         "background": {
-          "value": "#71706b",
+          "value": "#666666",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8127,7 +9285,7 @@ module.exports = {
       },
       "hover": {
         "circle": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8150,7 +9308,7 @@ module.exports = {
       },
       "disabled": {
         "background": {
-          "value": "#eeedea",
+          "value": "#e6e6e6",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8171,7 +9329,7 @@ module.exports = {
           ]
         },
         "circle": {
-          "value": "#c2c1ba",
+          "value": "#b3b3b3",
           "filePath": "node_modules/@mozaic-ds/tokens/properties/color/toggle.json",
           "isSource": true,
           "original": {
@@ -8235,6 +9393,219 @@ module.exports = {
             "circle"
           ]
         }
+      }
+    },
+    "tooltip": {
+      "background": {
+        "value": "#4d4d4d",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tooltip.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.700.value}"
+        },
+        "name": "ColorTooltipBackground",
+        "attributes": {
+          "category": "color",
+          "type": "tooltip",
+          "item": "background"
+        },
+        "path": [
+          "color",
+          "tooltip",
+          "background"
+        ]
+      },
+      "border": {
+        "value": "#ffffff",
+        "filePath": "node_modules/@mozaic-ds/tokens/properties/color/tooltip.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.grey.000.value}"
+        },
+        "name": "ColorTooltipBorder",
+        "attributes": {
+          "category": "color",
+          "type": "tooltip",
+          "item": "border"
+        },
+        "path": [
+          "color",
+          "tooltip",
+          "border"
+        ]
+      }
+    },
+    "secondary-sandgrey": {
+      "100": {
+        "value": "#eeedea",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#EEEDEA"
+        },
+        "name": "ColorSecondarySandgrey100",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "100"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#dddcd5",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#DDDCD5"
+        },
+        "name": "ColorSecondarySandgrey200",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "200"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#c2c1ba",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#C2C1BA"
+        },
+        "name": "ColorSecondarySandgrey300",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "300"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#a7a6a0",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#A7A6A0"
+        },
+        "name": "ColorSecondarySandgrey400",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "400"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#8c8b85",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#8C8B85"
+        },
+        "name": "ColorSecondarySandgrey500",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "500"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#71706b",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#71706B"
+        },
+        "name": "ColorSecondarySandgrey600",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "600"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#555550",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#555550"
+        },
+        "name": "ColorSecondarySandgrey700",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "700"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#3a3936",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#3A3936"
+        },
+        "name": "ColorSecondarySandgrey800",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "800"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#1e1e1c",
+        "filePath": "node_modules/@mozaic-ds/tokens/AdeoProperties/color/base.json",
+        "isSource": true,
+        "original": {
+          "value": "#1E1E1C"
+        },
+        "name": "ColorSecondarySandgrey900",
+        "attributes": {
+          "category": "color",
+          "type": "secondary-sandgrey",
+          "item": "900"
+        },
+        "path": [
+          "color",
+          "secondary-sandgrey",
+          "900"
+        ]
       }
     }
   },
