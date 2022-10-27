@@ -3,12 +3,13 @@
   <div class="welcome">
     Welcome to ADEO Design System’s Web Components showcase
   </div>
-  <div class="mc-divider-bottom theming">
+  <div class="mc-divider-bottom theming sticky">
+    <span class="mt-body-l--semi-bold">Brand theme:</span>
     <m-radio-group
       id="radio-group-id"
-      legend="Choose your theme"
       :options="opts"
-      selectedvalue="ADEO"
+      selectedvalue="adeo"
+      inline="true"
       @change="handleTheme($event.detail)"
     ></m-radio-group>
   </div>
@@ -43,8 +44,8 @@ if (!customElements.get("m-donut")) {
 if (!customElements.get("m-notification")) {
   customElements.define("m-notification", Notification);
 }
-if (!customElements.get('m-radio-group')) {
-  customElements.define('m-radio-group', RadioGroup);
+if (!customElements.get("m-radio-group")) {
+  customElements.define("m-radio-group", RadioGroup);
 }
 
 export default {
@@ -59,34 +60,34 @@ export default {
   },
   data() {
     return {
-      theme: 'adeo',
+      theme: "adeo",
       toggleTheme: false,
       opts: JSON.stringify([
-    {
-      id: 'adeo',
-      name: 'ADEO',
-      label: 'ADEO',
-      value: 'adeo',
-      disabled: false,
-      checked: true,
-    },
-    {
-      id: 'lm',
-      name: 'Leroy Merlin',
-      label: 'LEROY MERLIN',
-      value: 'lm',
-      disabled: false,
-      checked: false,
-    },
-    {
-      id: 'bricoman',
-      name: 'Bricoman',
-      label: 'Bricoman',
-      value: 'bricoman',
-      disabled: false,
-      checked: false,
-    },
-  ]),
+        {
+          id: "adeo",
+          name: "ADEO",
+          label: "ADEO",
+          value: "adeo",
+          disabled: false,
+          checked: true,
+        },
+        {
+          id: "lm",
+          name: "Leroy Merlin",
+          label: "LEROY MERLIN",
+          value: "lm",
+          disabled: false,
+          checked: false,
+        },
+        {
+          id: "bricoman",
+          name: "Bricoman",
+          label: "Bricoman",
+          value: "bricoman",
+          disabled: false,
+          checked: false,
+        },
+      ]),
     };
   },
   methods: {
@@ -94,8 +95,8 @@ export default {
       this.toggleTheme = !this.toggleTheme;
     },
     handleTheme(e) {
-      console.log(e)
-      this.theme = e
+      console.log(e);
+      this.theme = e;
     },
   },
 };
@@ -104,9 +105,10 @@ export default {
 <style lang="scss">
 @import "settings-tools/all-settings";
 @import "components/_c.divider";
+@import 'typography/_t.bodys';
 
 @font-face {
-  font-family: Leroy Merlin;
+  font-family: Roboto;
   src: url(assets/Roboto/Roboto-Medium.ttf) format("ttf");
 }
 
@@ -147,5 +149,14 @@ body {
 .notif {
   background-color: $color-grey-000;
   padding: $mu200;
+}
+
+.sticky {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  overflow: scroll;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
 </style>

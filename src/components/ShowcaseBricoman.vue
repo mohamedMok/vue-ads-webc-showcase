@@ -6,6 +6,8 @@
       <div class="items">
         <m-bc-button label="Button label" />
 
+        <m-bc-button label="Button label" theme="primary-02"/>
+
         <m-bc-button
           label="With icon"
           size="m"
@@ -41,6 +43,8 @@
       <div class="items">
         <m-bc-button label="Button label" />
 
+        <m-bc-button label="Button label" theme="primary-02"/>
+
         <m-bc-button label="Button label" theme="neutral" />
 
         <m-bc-button label="Button label" theme="danger" />
@@ -48,6 +52,8 @@
 
       <div class="items">
         <m-bc-button label="Button label" bordered="true" />
+
+        <m-bc-button label="Button label" theme="primary-02" bordered="true"/>
 
         <m-bc-button label="Button label" theme="neutral" bordered="true" />
 

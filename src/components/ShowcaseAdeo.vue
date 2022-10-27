@@ -398,6 +398,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import 'settings-tools/all-settings';
+
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/Roboto/Roboto-Medium.ttf') format("ttf");
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
 .example {
   margin: $mu200;
   padding: $mu300;

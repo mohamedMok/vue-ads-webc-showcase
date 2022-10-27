@@ -397,7 +397,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+$local-config: (
+  font-path: '../assets/LM/',
+);
+
 @import 'settings-tools/all-settings';
+@include import-font-families();
+
 .example {
   margin: $mu200;
   padding: $mu300;
