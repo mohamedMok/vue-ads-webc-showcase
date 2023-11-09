@@ -2,6 +2,9 @@
   <h2 class="title">Basic components</h2>
   <div class="wrapper">
     <h3 class="sub-title">Buttons</h3>
+    <m-breadcrumb
+  items='[{"text":"Bricoman","href":"https://www.bricoman.fr/"},{"text":"Here is the level 01","href":"https://www.google.fr/"},{"text":"This is another very long level (Level 02) link","href":"https://www.google.fr/","isActive":true},{"text":"The third level is here","href":"https://www.google.fr/"},{"text":"This is the last Level link","href":"https://www.google.fr/"}]'
+></m-breadcrumb>
     <div class="example">
       <div class="items">
         <m-button label="Button label" />
@@ -288,6 +291,7 @@ import Radio from "@mozaic-ds/mozaic-web-components/public/adeo/components/radio
 import Layer from "@mozaic-ds/mozaic-web-components/public/adeo/components/layer/Layer.js";
 import Badge from "@mozaic-ds/mozaic-web-components/public/adeo/components/badge/Badge.js";
 import BarChart from "@mozaic-ds/mozaic-web-components/public/adeo/components/chart/BarChart.js";
+import Breadcrumb from "@mozaic-ds/mozaic-web-components/public/adeo/components/breadcrumb/Breadcrumb.js";
 
 if (!customElements.get("m-button")) {
   customElements.define("m-button", Button);
@@ -339,6 +343,10 @@ if (!customElements.get("m-badge")) {
 
 if (!customElements.get("m-bar-chart")) {
   customElements.define("m-bar-chart", BarChart);
+}
+
+if (!customElements.get("m-breadcrumb")) {
+  customElements.define("m-breadcrumb", Breadcrumb);
 }
 
 export default {
